@@ -18,6 +18,6 @@ app.put('/mobiles', (req,res) => {
     res.send("mobile data updated")
 })
 
-app.delete('/mobiles', (res,req) => {
+app.delete('/mobiles', (req,res) => {
     res.send("mobile data deleted")
 })
